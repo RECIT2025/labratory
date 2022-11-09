@@ -4,38 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <link href="./login.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-
-    <div class="container">~
+    
+    <div class="container">
         <div class="banner">
-            <h1>LOGIN</h1>
+            <center><h1>LOGIN</h1></center>
         </div>
         <form>
         <div class="user input">
-            <label for="name">Username</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" name="username" placeholder="username" required>
         </div>
 
         <div class="pass input">
-            <label for="password">Password</label>
-            <input type="password" id="pass" name="pass" required>
+            <input type="password" id="pass" name="pass" placeholder="password" required>
         </div>
 
-        <div class="remeber radio">
-            <input type="checkbox" id="remeber" name="remeber">
-            <label for="remeber">Remember Me</label>
+        <div class="remember radio">
+            <center><label for="remember">Remember Me</label></center>
+            <input type="checkbox" id="remember" name="remember" >
         </div>
 
         <div class="forgot">
-            <a href="./">Forgot password</a>
+            <center><a href="./">Forgot password?</a></center>
         </div>
 
         <div class="login button">
-            <input type="button"
+            <button>LOGIN</button>
         </div>
+    
     </form>
     </div>
+    
 </body>
 </html>
