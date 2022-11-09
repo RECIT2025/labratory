@@ -1,0 +1,45 @@
+body{
+    padding :0px;
+    margin :0px;
+   background-color:  #96C8F6
+}
+
+nav{
+    margin: 40px 40px 0px 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #FFBA69;
+    
+    
+}
+#items{
+    margin-left: 30px;
+    display: flex;
+       margin-right: auto;
+      
+}
+#GPA{
+    margin-left: 20px;
+}
+#button{
+    margin-left: 20px;
+}
+#box{
+    background-color: black;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 2rem;
+    padding-bottom: 25rem;
+}
+#sem{
+    margin-left: 80px;
+
+}
+#nan{
+    margin-top: 20px;
+}
+#inside{
+    background-color:  #96C8F6;
+    margin:0px 40px 0px 40px;
+}
